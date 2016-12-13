@@ -1,0 +1,126 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Masthead*/
+.masthead {
+    color: rgba(255, 255, 255, 0.7);
+    /*margin-top: -25px;*/
+}
+
+.masthead h2 {
+    color: white;
+    font-size: 60px;
+    padding: 150px 0 45px 0;
+}
+
+.masthead p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+    font-weight: 200;
+}
+
+#about {
+    padding: 180px 0 180px 0;
+}
+
+#templates h2 {
+    color: white;
+    font-size: 60px;
+    padding: 25px 0 45px 0;
+}
+
+#templates h3 {
+    color: white;
+    font-size: 24px;
+}
+
+#templates p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    font-weight: 200;
+}
+
+#templates li {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 200;
+}
+
+#templates i {
+    font-size: 36px;
+}
+
+/*Transparent navbar*/
+.navbar-default {
+  background: transparent;
+  border: none;
+  transition: 0.2s all linear;
+}
+
+.navbar-default.change-color {
+  background-color: #000;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    /*[class*="col-"] {
+        width: 100%;
+    }*/
+
+    .masthead h2 {
+        color: white;
+        font-size: 42px;
+        padding: 150px 0 45px 0;
+    }
+
+    .navbar ul {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    #about {
+        padding: 100px 0 100px 0;
+    }
+
+    #templates h2 {
+        color: white;
+        font-size: 30px;
+        padding: 25px 0 20px 0;
+    }
+
+    #templates a {
+        margin: 0 0 10px 0;
+    }
+
+    #templates i {
+        margin: 20px 0 0 0;
+    }
+}
+
+/*******************
+ * UTILITY CLASSES *
+ *******************/
+
+/**********
+ * COLORS *
+ **********/
+.blue {
+    color: #2E93FF !important;
+}
+
+.white {
+    color: white !important;
+}
+
+.top-margin-md {
+    margin: 25px 0 0 0 !important;
+}
+
+/* Highlighting */
+::-moz-selection {
+  color: #2E93FF; background: inherit;
+}
+
+::selection {
+  color: #2E93FF; background: inherit;
+}
