@@ -1,3 +1,9 @@
+/*To remove unwanted padding/margins*/
+body {
+    margin:0;
+    padding:0;
+}
+
 html {
     font-family: 'Roboto', sans-serif;
 }
@@ -100,6 +106,16 @@ html {
         background: url('../img/services-bg-mb.jpg') no-repeat center center fixed;
         min-height: 690px;
     }
+
+    /*Remove transparent navbar*/
+    .navbar-default {
+        background-color:#333;
+        border-color:#222;
+    }
+
+    .navbar-default.change-color {
+      background-color: #333;
+    }
 }
 
 /*******************
@@ -128,4 +144,8 @@ html {
 
 ::selection {
   color: #2E93FF; background: inherit;
+}
+
+header {
+    margin-top: 0px;
 }

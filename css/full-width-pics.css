@@ -30,7 +30,7 @@ body {
 
 .image-bg-fixed-height-masthead {
 	background: url('../img/header.jpg') no-repeat center center fixed;
-    height: 690px;
+    min-height: 690px;
 }
 
 .img-center {
