@@ -95,6 +95,11 @@ html {
     #templates i {
         margin: 20px 0 0 0;
     }
+
+    .image-bg-fixed-height {
+        background: url('../img/services-bg-mb.jpg') no-repeat center center fixed;
+        min-height: 690px;
+    }
 }
 
 /*******************
