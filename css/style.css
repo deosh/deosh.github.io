@@ -56,6 +56,46 @@ html {
     font-size: 36px;
 }
 
+#main {
+    height: 200px;
+}
+
+#main p {
+    color: black;
+    font-size: 16px;
+    margin: 50px 0 0 0;
+}
+
+#download i, ul {
+    font-size: 20px;
+}
+
+#download h2 {
+    font-size: 36px;
+}
+
+#product-name {
+    margin: 15px 0;
+}
+
+#product-details {
+    margin: 15px 0 15px 0;
+    padding: 0 0 0 0;
+}
+
+#product-description  {
+    font-size: 18px;
+}
+
+#directions {
+    margin: 15px 0 15px 0;
+    padding: 0 0 0 0
+}
+
+#directions {
+    font-size: 18px;
+}
+
 /*Transparent navbar*/
 .navbar-default {
   background: transparent;
@@ -102,9 +142,17 @@ html {
         margin: 20px 0 0 0;
     }
 
+    #main {
+        min-height: 325px;
+    }
+
     .image-bg-fixed-height {
         background: url('../img/services-bg-mb.jpg') no-repeat center center fixed;
         min-height: 690px;
+    }
+
+    #download li {
+        margin-top: 10px;
     }
 
     /*Remove transparent navbar*/
@@ -133,8 +181,63 @@ html {
     color: white !important;
 }
 
+.top-margin-sm {
+    margin: 15px 0 0 0 !important;
+}
+
 .top-margin-md {
     margin: 25px 0 0 0 !important;
+}
+
+.top-margin-lg {
+    margin: 50px 0 0 0 !important;
+}
+
+.top-margin-xl {
+    margin: 100px 0 0 0 !important;
+}
+
+.ms-blue {
+    color: rgb(51, 102, 153) !important;
+}
+
+.ms-green {
+    color: rgb(0, 102, 51) !important;
+}
+
+.ms-orange {
+    color: #d83b01 !important;
+}
+
+.white {
+    color: white !important;
+}
+
+/* Background colors */
+
+.blue-bg {
+    background-color: rgb(46, 147, 255) !important;
+}
+
+/*Font sizes*/
+.extra-small {
+    font-size: 6px !important;
+}
+
+.small {
+    font-size: 12px !important;
+}
+
+.medium {
+    font-size: 16px !important;
+}
+
+.large {
+    font-size: 24px !important;
+}
+
+.extra-large {
+    font-size: 60px !important;
 }
 
 /* Highlighting */
@@ -148,4 +251,45 @@ html {
 
 header {
     margin-top: 0px;
+}
+
+/*Circular button*/
+.btn-circle {
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
+  padding: 7px 16px;
+  border: 1px solid white;
+  border-radius: 100% !important;
+  font-size: 20px;
+  color: white;
+  background: transparent;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+.btn-circle i {
+    margin-top: 7px;
+}
+.btn-circle:hover,
+.btn-circle:focus {
+  outline: none;
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+}
+.btn-circle i.animated {
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-duration: 1s;
+  -moz-transition-property: -moz-transform;
+  -moz-transition-duration: 1s;
+}
+.btn-circle:hover i.animated {
+  -webkit-animation-name: pulse;
+  -moz-animation-name: pulse;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
 }
