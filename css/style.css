@@ -32,9 +32,21 @@ html {
     font-size: 20px;
     font-weight: 200;
 }
+.masthead .form-inline .form-group input {
+	width:300px;
+}
 
 #about {
-    padding: 180px 0 180px 0;
+    padding: 45px 0 45px 0;
+}
+
+#about img {
+    padding: 100px 0 100px 0;
+}
+
+#about li {
+    font-size: 16px;
+    font-weight: 400;
 }
 
 #templates h2 {
@@ -50,13 +62,13 @@ html {
 
 #templates p {
     color: rgba(255, 255, 255, 0.7);
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 200;
 }
 
 #templates li {
     color: rgba(255, 255, 255, 0.7);
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 200;
 }
 
@@ -102,6 +114,10 @@ html {
 
 #directions {
     font-size: 18px;
+}
+
+#product-name p {
+    font-size: 16px;
 }
 
 /*Transparent navbar*/
