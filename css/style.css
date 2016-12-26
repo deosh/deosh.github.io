@@ -111,8 +111,8 @@ html {
 }
 
 #directions {
-    margin: 15px 0 15px 0;
-    padding: 0 0 0 0
+    margin: 15px 0;
+    padding: 0 0;
 }
 
 #directions {
@@ -121,6 +121,15 @@ html {
 
 #product-name p {
     font-size: 16px;
+}
+
+#notes {
+    margin: 15px 0;
+    padding: 0 0;
+}
+
+#notes {
+    font-size: 18px;
 }
 
 /*Transparent navbar*/
@@ -134,44 +143,19 @@ html {
   background-color: #333;
 }
 
-.resources {
-	background: url('../img/ResourcePicVeryDark.jpg') no-repeat center center fixed;
-    min-height: 650px;
-    /*margin: -175px 0 0 0;*/
-    color: white;
-}
-
-.resources h1 {
-    color: white;
-}
-
-.resources h2 {
-    margin: 15px 0 50px 0;
-    font-size: 4em;
-}
-
-.resources a {
-    text-shadow: 1px 1px #000;
-}
-
-.resources ul {
-    list-style-position: outside;
-    padding-left: 5px;
-    margin-bottom: 10px;
-}
-
-.resources li {
-    margin-bottom: 10px;
-}
-
-/*.resources ul {
-    color: #fff;
-    text-shadow: 1px 1px #000;
-}*/
 
 .disclaimer {
     font-size: 12px;
     padding: 75px 0 0 0;
+}
+
+.resources p {
+    font-size: 16px;
+}
+
+section {
+    margin: 15px 0 0 0;
+    padding: 5px 0 0 0;
 }
 
 @media only screen and (max-width: 768px) {
@@ -237,6 +221,16 @@ html {
         margin-top: 10px;
     }
 
+    #directions ol {
+        padding: 5px 0;
+        margin: 0 0;
+    }
+
+    #notes ol {
+        padding: 5px 0;
+        margin: 0 0;
+    }
+
     /*Remove transparent navbar*/
     .navbar-default {
         background-color:#333;
@@ -249,18 +243,6 @@ html {
 
     .btn-circle {
         margin: 0 0 25px 0;
-    }
-
-    .resources h1 {
-        font-size: 66px;
-    }
-
-    .resources h2 {
-        font-size: 48px;
-    }
-
-    .resources ul {
-        font-size: 14px;
     }
 }
 

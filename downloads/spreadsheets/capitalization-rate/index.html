@@ -61,7 +61,7 @@
                         <a class="smoothScroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="smoothScroll" href="downloads/index.html">Templates</a>
+                        <a class="smoothScroll" href="../../index.html">Templates</a>
                     </li>
                     <li>
                         <a class="smoothScroll" href="#blog">Blog</a>
@@ -78,11 +78,13 @@
 
     <!-- Full Width Image Header with Logo -->
     <!-- Image backgrounds are set within the full-width-pics.css file. -->
-    <header id="product-name" class="">
+    <header id="product-name">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h1 class=" top-margin-xl section-heading">[Product Name]</h1>
+                    <h1 class=" top-margin-xl section-heading">
+                        Capitalization Rate
+                    </h1>
                     <p class="top-margin-sm">
                         <a href="#download">
                             Download <i class="fa fa-file-excel-o ms-green" aria-hidden="true"></i>
@@ -95,27 +97,37 @@
 
     <!-- Content Section -->
     <section id="product-details top-margin-md">
-        <div class="container smoothScroll">
+        <div class="container">
+            <!-- Picture and Description -->
             <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <img class="img-responsive" src="http://loremflickr.com/360/240/technology?random=1" alt="product screenshot">
+                <div class="col-lg-4 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="../../../img/spreadsheets/capitalization-tmb.jpg" alt="product screenshot">
                 </div>
-                <div class="col-lg-4">
-                    <h2 class="text-center">[Description]</h2>
+                <div class="col-lg-6 col-sm-6">
+                    <h2 class="text-center">What is this?</h2>
                     <p id="product-description">
-                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+                        Derive a CAP rate, Value and Debt to Coverage Ratio
+                        using the Ellwood method. For detailed information,
+                        please visit the <a href="http://www.ccim.com/cire-magazine/articles/cap-rate-calculations/" target="_blank">CCIM</a>.
                     </p>
                 </div>
             </div>
+            <!-- End of Picture and Description -->
+
+            <!-- Directions -->
             <div id="directions" class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2 class="text-center">Instructions</h2>
                     <p>
                         <ol>
-                            <li>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</li>
-                            <li>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</li>
-                            <li>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</li>
-                            <li>Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.</li>
+                            <li><b>Net Operating Income - 1st Year:</b> Enter the 1st year Net Operating Income (NOI)</li>
+                            <li><b>Net Operating Income - Growth Rate Per Year:</b> Enter the percent amount the NOI will grow annually</li>
+                            <li><b>Equity Yield Target:</b> Enter the equity yield target percent (ratio of earnings vs equity invested)</li>
+                            <li><b>Mortgage Rate:</b> Enter the mortgage interest rate</li>
+                            <li><b>Amortization Term Yrs:</b> Enter the length of the loan in years</li>
+                            <li><b>Loan to Value ratio:</b>	Enter the LTV ratio (percent of price that will be loaned)</li>
+                            <li><b>Holding Period:</b> Enter the number of years the property will be held</li>
+                            <li><b>Transactions costs at sale:</b> Enter the sales cost as a percentage of the loan</li>
                         </ol>
                     </p>
                     <p class="top-margin-sm text-center">
@@ -125,6 +137,7 @@
                     </p>
                 </div>
             </div>
+            <!-- End of Directions -->
         </div>
     </section>
 
