@@ -1,3 +1,9 @@
 .post-heading {
     text-shadow: 2px 2px #000;
 }
+
+/*-- change navbar dropdown color --*/
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a,.navbar-default .navbar-nav .open .dropdown-menu {
+    /*background-color: transparent;*/
+    color:#000;
+  }
