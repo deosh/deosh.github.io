@@ -11,6 +11,10 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+.navbar-inverse {
+    background-color: #333;
+}
+
 /*Masthead*/
 .masthead {
     color: rgba(255, 255, 255, 0.7);
