@@ -1,0 +1,8 @@
+User-Agent: *
+Disallow: /blog/about.html
+Disallow: /blog/contact.html
+Disallow: /blog/gulpfile.js
+Disallow: /blog/post.html
+Disallow: /blog/vendor
+
+Sitemap: https://brokertemplates.com/sitemap.xml
