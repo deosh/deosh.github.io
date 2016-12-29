@@ -214,10 +214,10 @@ section {
         min-height: 325px;
     }
 
-    .image-bg-fixed-height {
+    /*.image-bg-fixed-height {
         background: url('../img/services-bg-mb.jpg') no-repeat center center fixed;
         min-height: 690px;
-    }
+    }*/
 
     #download li {
         margin-top: 10px;
