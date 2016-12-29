@@ -18,8 +18,6 @@ body {
     -o-background-size: cover;
 }
 
-.intro-header
-
 .image-bg-fluid-height {
 	background: url('../img/header-lg.jpg') no-repeat center center fixed;
     padding: 100px 0;
