@@ -20,7 +20,7 @@ body {
 
 .image-bg-fluid-height {
 	background: url('../img/header-lg.jpg') no-repeat center center fixed;
-    padding: 100px 0;
+    /*padding: 100px 0;*/
 }
 
 .image-bg-fixed-height-templates {

@@ -166,6 +166,11 @@ section {
         width: 100%;
     }*/
 
+    .masthead {
+        margin-top: 0;
+        padding: 20px;
+    }
+
     .masthead h1 {
         color: white;
         font-size: 42px;
