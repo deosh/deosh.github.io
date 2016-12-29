@@ -18,18 +18,20 @@ body {
     -o-background-size: cover;
 }
 
+.intro-header
+
 .image-bg-fluid-height {
-	background: url('../img/header.jpg') no-repeat center center fixed;
+	background: url('../img/header-lg.jpg') no-repeat center center fixed;
     padding: 100px 0;
 }
 
-.image-bg-fixed-height {
+.image-bg-fixed-height-templates {
     background: url('../img/services-bg.jpg') no-repeat center center fixed;
     min-height: 690px;
 }
 
 .image-bg-fixed-height-masthead {
-	background: url('../img/header.jpg') no-repeat center center fixed;
+	background: url('../img/header-lg.jpg') no-repeat center center fixed;
     min-height: 690px;
 }
 
