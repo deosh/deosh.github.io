@@ -69,9 +69,4 @@ footer {
     .section-heading {
         font-size: 2em;
     }
-
-    .image-bg-fixed-height-masthead {
-    	background: url('../img/header-md.jpg') no-repeat center center fixed;
-        min-height: 690px;
-    }
 }
