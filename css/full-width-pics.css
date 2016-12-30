@@ -29,8 +29,16 @@ body {
 }
 
 .image-bg-fixed-height-masthead {
-	background: url('../img/header-lg.jpg') no-repeat center center fixed;
+	background: url('../img/header-lg.jpg') no-repeat;
     min-height: 690px;
+
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+
+    @media (max-width: @iphone-screen) {
+        background-attachment: scroll;
+    }
 }
 
 .img-center {
