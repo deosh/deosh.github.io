@@ -5,7 +5,7 @@
  */
 
 body {
-    /*margin-top: 50px; *//* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 .image-bg-fluid-height,
@@ -18,11 +18,9 @@ body {
     -o-background-size: cover;
 }
 
-.intro-header
-
 .image-bg-fluid-height {
 	background: url('../img/header-lg.jpg') no-repeat center center fixed;
-    padding: 100px 0;
+    /*padding: 100px 0;*/
 }
 
 .image-bg-fixed-height-templates {
@@ -31,8 +29,12 @@ body {
 }
 
 .image-bg-fixed-height-masthead {
-	background: url('../img/header-lg.jpg') no-repeat center center fixed;
+	background: url('../img/header-lg.jpg') no-repeat;
     min-height: 690px;
+
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
 }
 
 .img-center {
@@ -68,5 +70,9 @@ footer {
 
     .section-heading {
         font-size: 2em;
+    }
+
+    .image-bg-fixed-height-masthead {
+        background-attachment: scroll;
     }
 }
