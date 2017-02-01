@@ -7,3 +7,24 @@
     /*background-color: transparent;*/
     color:#000;
   }
+
+.twitter-share-button {
+    background-color: #1da1f2 !important;
+    border-color: #1da1f2 !important;
+    border-radius: 2px !important;
+    margin: 0 5px;
+}
+
+.facebook-share-button {
+    background-color: #3b5998 !important;
+    border-color: #3b5998 !important;
+    border-radius: 2px !important;
+    margin: 0 5px;
+}
+
+.linkedin-share-button {
+    background-color: #0077b5 !important;
+    border-color: #0077b5 !important;
+    border-radius: 2px !important;
+    margin: 0 5px;
+}
